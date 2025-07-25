@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - FitCoach Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FitCoach Pro</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Start Your Transformation</h2>
+    <p>Ready to take the first step? Fill out the form below and I'll get back to you within 24 hours to discuss your goals and create a personalized plan.</p>
+
+    <form action="https://formspree.io/f/xknkvvkd" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" />
+      
+      <select name="program" required>
+        <option value="">Select Your Program Interest</option>
+        <option value="fat-burn">Fat Burn Bootcamp</option>
+        <option value="muscle-gain">Muscle Gain Mastery</option>
+        <option value="online-coaching">Online Coaching Elite</option>
+        <option value="consultation">Free Consultation</option>
+      </select>
+      
+      <textarea name="message" rows="5" placeholder="Tell me about your fitness goals, current experience level, and any specific challenges you're facing..." required></textarea>
+      
+      <button type="submit">Send Message & Get Started</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FitCoach Pro. All rights reserved. | Transforming lives through fitness excellence.</p>
+  </footer>
+</body>
+</html>
